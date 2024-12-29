@@ -48,8 +48,8 @@ public class LineageSettingsActivity extends BaseSetupWizardActivity {
         mSetupWizardApp = (SetupWizardApp) getApplication();
         setNextText(R.string.next);
 
-        String os_name = getString(R.string.os_name);
-        String privacyPolicy = getString(R.string.services_pp_explanation, os_name);
+        String os_name = getString(R.string.aospb_os_name);
+        String privacyPolicy = getString(R.string.aospb_services_pp_explanation, os_name);
         String privacyPolicyUri = getString(R.string.services_privacy_policy_uri);
         String policySummary = getString(R.string.services_find_privacy_policy, privacyPolicyUri);
         String servicesFullDescription = getString(R.string.services_full_description,
@@ -60,8 +60,8 @@ public class LineageSettingsActivity extends BaseSetupWizardActivity {
         metricsRow.setOnClickListener(mMetricsClickListener);
         metricsRow.requestFocus();
         String metricsHelpImproveLineage =
-                getString(R.string.services_help_improve_cm, os_name);
-        String metricsSummary = getString(R.string.services_metrics_label,
+                getString(R.string.aospb_services_help_improve_cm, os_name);
+        String metricsSummary = getString(R.string.aospb_services_metrics_label,
                 metricsHelpImproveLineage, os_name, os_name);
         final SpannableStringBuilder metricsSpan = new SpannableStringBuilder(metricsSummary);
         metricsSpan.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD),
@@ -96,7 +96,7 @@ public class LineageSettingsActivity extends BaseSetupWizardActivity {
 
     @Override
     protected int getTitleResId() {
-        return R.string.setup_services;
+        return R.string.aospb_setup_services;
     }
 
     @Override

@@ -29,7 +29,7 @@ public class UpdateRecoveryActivity extends BaseSetupWizardActivity {
         super.onCreate(savedInstanceState);
         mSetupWizardApp = (SetupWizardApp) getApplication();
         getGlifLayout().setDescriptionText(getString(R.string.update_recovery_full_description,
-                getString(R.string.update_recovery_description),
+                getString(R.string.aospb_update_recovery_description),
                 getString(R.string.update_recovery_warning)));
 
         if (!SetupWizardUtils.hasRecoveryUpdater(this)) {
@@ -77,7 +77,7 @@ public class UpdateRecoveryActivity extends BaseSetupWizardActivity {
 
     @Override
     protected int getTitleResId() {
-        return R.string.update_recovery_title;
+        return R.string.aospb_update_recovery_title;
     }
 
     @Override

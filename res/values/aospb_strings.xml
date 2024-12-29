@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2013-2015 The CyanogenMod Project
+     SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<string name="aospb_os_name" translatable="false">aosPB-Project</string>
+<string name="aospb_setup_welcome_message">Welcome to aosPB-Project</string>
+<string name="aospb_intro_restore_subtitle">If you have a Seedvault backup from aosPB-Project or any other OS, you can restore it here.</string>
+<string name="aospb_update_recovery_title">Update aosPB-Project Recovery</string>
+<string name="aospb_update_recovery_description">Updates aosPB-Project Recovery on first boot subsequent to every update.</string>
+<string name="aospb_update_recovery_setting">Update aosPB-Project Recovery alongside the OS</string>
+<string name="aospb_setup_services">aosPB-Project features</string>
+<string name="aospb_services_pp_explanation">These services work for you to extend the capabilities of your device. Data will be used in accordance with aosPB-Project's privacy policy.</string>
+<string name="aospb_services_help_improve_cm">Help improve aosPB-Project</string>
+<string name="aospb_services_metrics_label">Help improve aosPB-Project by automatically sending diagnostic and usage data to the developers. This information can’t be used to identify you and lends a hand to teams working on things like battery life, app performance, and new features.</string>
+</resources>
